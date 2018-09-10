@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 0.21.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -37,7 +37,7 @@ gem 'pg', '~> 0.18'
 gem 'devise'
 gem 'react-rails', '~> 1.7', '>= 1.7.1'
 gem "rolify"
-gem 'omniauth-facebook'
+# gem 'omniauth-facebook'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 

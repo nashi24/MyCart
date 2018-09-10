@@ -18,7 +18,7 @@ set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh
 set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true  # Change to false when not using ActiveRecord
-set :linked_files, %w(config/secrets.yml config/mongoid.yml)
+set :linked_files, %w(config/secrets.yml config/database.yml)
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp', 'public/system', "public/downloads", "public/assets")
 #sidekiq
 # set :sidekiq_role, [:app]
